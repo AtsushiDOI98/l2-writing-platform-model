@@ -206,7 +206,7 @@ elif st.session_state.step == 4:
         )
     st.markdown("#### 考えたこと・気づいたこと")
     st.session_state.wl_text = st.text_area(
-        "フィードバックと自身の文を比較し、考えたことや気づいたことを書いてください。",
+        "フィードバックと自身の文を比較し、考えたことや気づいたことをできるだけ多く書いてください。",
         value=st.session_state.wl_text,
         height=200,
         disabled=st.session_state.wl_start_time is None
