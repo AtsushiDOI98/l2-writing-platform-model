@@ -3,10 +3,7 @@ import time
 from datetime import datetime
 import pandas as pd
 from io import BytesIO
-from openai import OpenAI
 from streamlit_autorefresh import st_autorefresh
-
-client = OpenAI(api_key=st.secrets["OPENAI_API_KEY"])
 
 # セッション初期化
 default_states = {
